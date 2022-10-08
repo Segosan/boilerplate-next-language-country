@@ -6,3 +6,18 @@ body{
     display: flex;
     box-shadow: none;
 }
+
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.header__center{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.header__center ul{
+
+    display: flex;
+}
