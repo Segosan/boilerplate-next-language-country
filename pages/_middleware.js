@@ -59,18 +59,6 @@ export const middleware = (request) => {
       return NextResponse.redirect(url)
     }
 
-    // Redirect All Belgium
-    if (country === "be") {
-      url.pathname = `/fr-be${nextUrl.pathname}`
-      return NextResponse.redirect(url)
-    }
-
-    // Redirect all Great Britain
-    if (country === "gb") {
-      url.pathname = `/en-gb${nextUrl.pathname}`
-      return NextResponse.redirect(url)
-    }
-
     // Redirect French-Canada
     if (country === "ca" && language === "fr") {
       url.pathname = `/fr-ca${nextUrl.pathname}`
