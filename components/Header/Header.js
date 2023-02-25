@@ -29,41 +29,6 @@ function Header(props) {
               Primary
             </Button>
             </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
-            <li>
-            <Button light color="primary" auto>
-              Primary
-            </Button>
-            </li>
           </ul>
         </nav>
         </Grid>

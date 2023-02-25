@@ -20,13 +20,13 @@ export const middleware = (request) => {
       .split("-")?.[0]
       .toLowerCase() || "en"
 
-      console.log({
+      /*console.log({
         nextLocale: nextUrl.locale,
         pathname: nextUrl.pathname,
         cookie: cookies.NEXT_LOCALE,
         clientCountry: country,
         clientLanguage: language,
-      });
+      });*/
 
   try {
     // Early return if it is a public file such as an image

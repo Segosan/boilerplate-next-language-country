@@ -110,6 +110,7 @@ export default function News(props) {
               <NewsCard key={i} news={newsItem} />
             ))}
           </div>
+          
         </div>
       </main>
     </div>
